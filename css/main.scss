@@ -1,1 +1,33 @@
-@import "../node_modules/bootstrap/scss/bootstrap"
+// $primary: $blue !default;
+// $secondary: $gray-600 !default;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+// $light: $gray-100 !default;
+$dark: rgb(20, 18, 44);
+
+
+// bootstrap 4 file export
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+#navmenu .row ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.index-header {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
